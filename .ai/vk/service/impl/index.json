@@ -1,0 +1,31 @@
+{
+  "package": "com.vastknowledge.service.impl",
+  "layer": "service.impl",
+  "desc": "业务逻辑实现层",
+  "classes": [
+    {
+      "className": "UserServiceImpl",
+      "file": "src/main/java/com/vastknowledge/service/impl/UserServiceImpl.java",
+      "aiDir": ".ai/service/impl/UserServiceImpl/",
+      "desc": "用户业务逻辑实现",
+      "status": "active",
+      "lastModified": "2026-04-24"
+    },
+    {
+      "className": "ArticleServiceImpl",
+      "file": "src/main/java/com/vastknowledge/service/impl/ArticleServiceImpl.java",
+      "aiDir": ".ai/service/impl/ArticleServiceImpl/",
+      "desc": "文章业务逻辑实现",
+      "status": "active",
+      "lastModified": "2026-04-24"
+    },
+    {
+      "className": "CommentServiceImpl",
+      "file": "src/main/java/com/vastknowledge/service/impl/CommentServiceImpl.java",
+      "aiDir": ".ai/service/impl/CommentServiceImpl/",
+      "desc": "评论业务逻辑实现",
+      "status": "active",
+      "lastModified": "2026-04-24"
+    }
+  ]
+}

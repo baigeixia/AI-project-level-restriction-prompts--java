@@ -1,0 +1,27 @@
+{
+  "className": "ArticleController",
+  "file": "src/main/java/com/vastknowledge/controller/ArticleController.java",
+  "desc": "文章 HTTP 接口",
+  "methods": [
+    {
+      "name": "getById",
+      "access": "public",
+      "returnType": "Result<Article>",
+      "params": [
+        {
+          "name": "id",
+          "type": "Long"
+        }
+      ],
+      "desc": "根据ID查询文章",
+      "annotations": [
+        "@GetMapping",
+        "@PathVariable"
+      ],
+      "throws": [],
+      "callChain": [],
+      "transactional": false,
+      "status": "active"
+    }
+  ]
+}

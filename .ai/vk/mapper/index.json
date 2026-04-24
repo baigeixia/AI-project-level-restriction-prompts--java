@@ -1,0 +1,31 @@
+{
+  "package": "com.vastknowledge.mapper",
+  "layer": "mapper",
+  "desc": "数据访问层，使用 MyBatis-Plus BaseMapper",
+  "classes": [
+    {
+      "className": "UserMapper",
+      "file": "src/main/java/com/vastknowledge/mapper/UserMapper.java",
+      "aiDir": ".ai/mapper/UserMapper/",
+      "desc": "用户数据访问接口",
+      "status": "active",
+      "lastModified": "2026-04-24"
+    },
+    {
+      "className": "ArticleMapper",
+      "file": "src/main/java/com/vastknowledge/mapper/ArticleMapper.java",
+      "aiDir": ".ai/mapper/ArticleMapper/",
+      "desc": "文章数据访问接口",
+      "status": "active",
+      "lastModified": "2026-04-24"
+    },
+    {
+      "className": "CommentMapper",
+      "file": "src/main/java/com/vastknowledge/mapper/CommentMapper.java",
+      "aiDir": ".ai/mapper/CommentMapper/",
+      "desc": "评论数据访问接口",
+      "status": "active",
+      "lastModified": "2026-04-24"
+    }
+  ]
+}

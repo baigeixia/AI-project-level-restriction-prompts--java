@@ -1,0 +1,27 @@
+{
+  "className": "UserController",
+  "file": "src/main/java/com/vastknowledge/controller/UserController.java",
+  "desc": "用户 HTTP 接口",
+  "methods": [
+    {
+      "name": "getById",
+      "access": "public",
+      "returnType": "Result<User>",
+      "params": [
+        {
+          "name": "id",
+          "type": "Long"
+        }
+      ],
+      "desc": "根据ID查询用户",
+      "annotations": [
+        "@GetMapping",
+        "@PathVariable"
+      ],
+      "throws": [],
+      "callChain": [],
+      "transactional": false,
+      "status": "active"
+    }
+  ]
+}

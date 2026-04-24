@@ -1,0 +1,47 @@
+{
+  "_template": "class-index",
+  "className": "OrderController",
+  "type": "controller",
+  "package": "com.example.project.controller",
+  "file": "src/main/java/com/example/project/controller/OrderController.java",
+  "extends": "BaseController",
+  "implements": [],
+  "annotations": ["@RestController", "@RequestMapping(\"/api/order\")","@Slf4j"],
+  "desc": "订单 HTTP 入口，负责参数校验和响应包装，业务逻辑委托给 OrderService",
+  "dependencies": [
+    { "field": "orderService", "type": "OrderService", "inject": "@Autowired" }
+  ],
+  "methods": [
+    {
+      "name": "createOrder",
+      "access": "public",
+      "returnType": "Result<Long>",
+      "httpMethod": "POST",
+      "path": "/create",
+      "params": [
+        { "name": "dto", "type": "OrderCreateDTO", "annotation": "@RequestBody @Valid", "desc": "创建订单请求体" }
+      ],
+      "desc": "创建订单，返回订单ID",
+      "annotations": ["@PostMapping(\"/create\")", "@NoRepeatSubmit"],
+      "throws": ["BusinessException"],
+      "callChain": ["orderService.createOrder"],
+      "status": "active"
+    },
+    {
+      "name": "getOrderPage",
+      "access": "public",
+      "returnType": "AjaxPage<OrderListVO>",
+      "httpMethod": "GET",
+      "path": "/page",
+      "params": [
+        { "name": "query", "type": "OrderPageQuery", "annotation": "@ModelAttribute", "desc": "分页查询条件" }
+      ],
+      "desc": "分页查询订单列表",
+      "annotations": ["@GetMapping(\"/page\")"],
+      "throws": [],
+      "callChain": ["orderService.getOrderPage"],
+      "status": "active"
+    }
+  ],
+  "lastSync": "2025-01-01T00:00:00Z"
+}

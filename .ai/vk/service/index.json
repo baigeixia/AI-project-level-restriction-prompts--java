@@ -1,0 +1,31 @@
+{
+  "package": "com.vastknowledge.service",
+  "layer": "service",
+  "desc": "业务逻辑接口层",
+  "classes": [
+    {
+      "className": "UserService",
+      "file": "src/main/java/com/vastknowledge/service/UserService.java",
+      "aiDir": ".ai/service/UserService/",
+      "desc": "用户业务逻辑接口",
+      "status": "active",
+      "lastModified": "2026-04-24"
+    },
+    {
+      "className": "ArticleService",
+      "file": "src/main/java/com/vastknowledge/service/ArticleService.java",
+      "aiDir": ".ai/service/ArticleService/",
+      "desc": "文章业务逻辑接口",
+      "status": "active",
+      "lastModified": "2026-04-24"
+    },
+    {
+      "className": "CommentService",
+      "file": "src/main/java/com/vastknowledge/service/CommentService.java",
+      "aiDir": ".ai/service/CommentService/",
+      "desc": "评论业务逻辑接口",
+      "status": "active",
+      "lastModified": "2026-04-24"
+    }
+  ]
+}

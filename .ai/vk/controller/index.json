@@ -1,0 +1,23 @@
+{
+  "package": "com.vastknowledge.controller",
+  "layer": "controller",
+  "desc": "HTTP 入口层，负责参数校验和响应包装",
+  "classes": [
+    {
+      "className": "UserController",
+      "file": "src/main/java/com/vastknowledge/controller/UserController.java",
+      "aiDir": ".ai/controller/UserController/",
+      "desc": "用户 HTTP 接口",
+      "status": "active",
+      "lastModified": "2026-04-24"
+    },
+    {
+      "className": "ArticleController",
+      "file": "src/main/java/com/vastknowledge/controller/ArticleController.java",
+      "aiDir": ".ai/controller/ArticleController/",
+      "desc": "文章 HTTP 接口",
+      "status": "active",
+      "lastModified": "2026-04-24"
+    }
+  ]
+}

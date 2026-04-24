@@ -1,0 +1,17 @@
+{
+  "_template": "package-index",
+  "_desc": "包级类清单，用于快速定位类文件和了解包内职责分布",
+  "package": "com.example.project.controller",
+  "layer": "controller",
+  "classes": [
+    {
+      "className": "OrderController",
+      "file": "src/main/java/com/example/project/controller/OrderController.java",
+      "aiDir": ".ai/com/example/project/controller/OrderController/",
+      "desc": "订单相关 HTTP 接口，处理订单创建、查询、取消",
+      "type": "controller",
+      "status": "active",
+      "lastModified": "2025-01-01"
+    }
+  ]
+}
